@@ -47,6 +47,11 @@
     _tableView.tableFooterView = [[UIView alloc]init];
     [self.view addSubview:_tableView];
     
+    _tableView.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(onResignKeyboard)];
+    tapGesture.cancelsTouchesInView = NO;
+    [_tableView addGestureRecognizer:tapGesture];
+    
     [self setupSearchBar];
 }
 
@@ -80,6 +85,11 @@
 
     AddContactViewController *vc = [[AddContactViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)onResignKeyboard {
+    
+    [_searchBar resignFirstResponder];
 }
 
 #pragma mark SearchBar Delegate
