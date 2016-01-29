@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04598EFA1C5B3E3700D14815 /* APAddressBook+Conveniences.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EE91C5B3E3700D14815 /* APAddressBook+Conveniences.m */; };
+		04598EFB1C5B3E3700D14815 /* APContact+Conveniences.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EEB1C5B3E3700D14815 /* APContact+Conveniences.m */; };
+		04598EFC1C5B3E3700D14815 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EED1C5B3E3700D14815 /* UIColor+Hex.m */; };
+		04598EFD1C5B3E3700D14815 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EEF1C5B3E3700D14815 /* UIImage+Color.m */; };
+		04598EFE1C5B3E3700D14815 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EF11C5B3E3700D14815 /* UIView+Size.m */; };
+		04598EFF1C5B3E3700D14815 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EF31C5B3E3700D14815 /* UIView+Toast.m */; };
+		04598F001C5B3E3700D14815 /* ContactsSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EF51C5B3E3700D14815 /* ContactsSearchBar.m */; };
+		04598F011C5B3E3700D14815 /* SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EF71C5B3E3700D14815 /* SearchBar.m */; };
+		04598F021C5B3E3700D14815 /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598EF91C5B3E3700D14815 /* TextField.m */; };
+		04598F051C5B46F600D14815 /* search_bar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04598F041C5B46F600D14815 /* search_bar_background@2x.png */; };
+		04598F071C5B47C000D14815 /* search_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04598F061C5B47C000D14815 /* search_icon@2x.png */; };
+		04598F0C1C5B4FDC00D14815 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598F091C5B4FDC00D14815 /* AddContactViewController.m */; };
+		04598F0D1C5B4FDC00D14815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04598F0B1C5B4FDC00D14815 /* ViewController.m */; };
+		04598F0F1C5B4FFE00D14815 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04598F0E1C5B4FFE00D14815 /* Default-568h@2x.png */; };
 		048642931C4CB59C008B1710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642921C4CB59C008B1710 /* main.m */; };
 		048642961C4CB59C008B1710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642951C4CB59C008B1710 /* AppDelegate.m */; };
-		048642991C4CB59C008B1710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642981C4CB59C008B1710 /* ViewController.m */; };
 		0486429C1C4CB59C008B1710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0486429A1C4CB59C008B1710 /* Main.storyboard */; };
 		0486429E1C4CB59C008B1710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0486429D1C4CB59C008B1710 /* Assets.xcassets */; };
 		048642A11C4CB59C008B1710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0486429F1C4CB59C008B1710 /* LaunchScreen.storyboard */; };
 		048642AC1C4CB59C008B1710 /* TestFMDBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642AB1C4CB59C008B1710 /* TestFMDBDemoTests.m */; };
 		048642B71C4CB59C008B1710 /* TestFMDBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642B61C4CB59C008B1710 /* TestFMDBDemoUITests.m */; };
+		048642EF1C4CB74E008B1710 /* DatabaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642EE1C4CB74E008B1710 /* DatabaseUtil.m */; };
+		048643011C4CB982008B1710 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642F51C4CB982008B1710 /* FMDatabase.m */; };
+		048643021C4CB982008B1710 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642F71C4CB982008B1710 /* FMDatabaseAdditions.m */; };
+		048643031C4CB982008B1710 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642F91C4CB982008B1710 /* FMDatabasePool.m */; };
+		048643041C4CB982008B1710 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642FB1C4CB982008B1710 /* FMDatabaseQueue.m */; };
+		048643051C4CB982008B1710 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 048642FE1C4CB982008B1710 /* FMResultSet.m */; };
+		048643061C4CB982008B1710 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 048642FF1C4CB982008B1710 /* Info.plist */; };
+		048643091C4CB9C1008B1710 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 048643081C4CB9C1008B1710 /* ContactModel.m */; };
+		048643101C4CBA8F008B1710 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486430C1C4CBA8F008B1710 /* NSObject+YYModel.m */; };
+		048643111C4CBA8F008B1710 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486430E1C4CBA8F008B1710 /* YYClassInfo.m */; };
+		0486434A1C4CC1F4008B1710 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 048643491C4CC1F4008B1710 /* libsqlite3.tbd */; };
+		04A080181C50C6600064AC13 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A080171C50C6600064AC13 /* ContactDetailViewController.m */; };
+		04F566B81C4F5FB80026D4BD /* ContactsDatabaseOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F566B71C4F5FB80026D4BD /* ContactsDatabaseOption.m */; };
+		04F566BB1C4F89C80026D4BD /* ContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F566BA1C4F89C80026D4BD /* ContactsTableViewCell.m */; };
+		3BA5F8391C4CCC46007FE798 /* UserInfoEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5F8381C4CCC46007FE798 /* UserInfoEditTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +63,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04598EE81C5B3E3700D14815 /* APAddressBook+Conveniences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APAddressBook+Conveniences.h"; sourceTree = "<group>"; };
+		04598EE91C5B3E3700D14815 /* APAddressBook+Conveniences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APAddressBook+Conveniences.m"; sourceTree = "<group>"; };
+		04598EEA1C5B3E3700D14815 /* APContact+Conveniences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APContact+Conveniences.h"; sourceTree = "<group>"; };
+		04598EEB1C5B3E3700D14815 /* APContact+Conveniences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APContact+Conveniences.m"; sourceTree = "<group>"; };
+		04598EEC1C5B3E3700D14815 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		04598EED1C5B3E3700D14815 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		04598EEE1C5B3E3700D14815 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		04598EEF1C5B3E3700D14815 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		04598EF01C5B3E3700D14815 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		04598EF11C5B3E3700D14815 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		04598EF21C5B3E3700D14815 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		04598EF31C5B3E3700D14815 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		04598EF41C5B3E3700D14815 /* ContactsSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsSearchBar.h; sourceTree = "<group>"; };
+		04598EF51C5B3E3700D14815 /* ContactsSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsSearchBar.m; sourceTree = "<group>"; };
+		04598EF61C5B3E3700D14815 /* SearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBar.h; sourceTree = "<group>"; };
+		04598EF71C5B3E3700D14815 /* SearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBar.m; sourceTree = "<group>"; };
+		04598EF81C5B3E3700D14815 /* TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		04598EF91C5B3E3700D14815 /* TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextField.m; sourceTree = "<group>"; };
+		04598F041C5B46F600D14815 /* search_bar_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_bar_background@2x.png"; sourceTree = "<group>"; };
+		04598F061C5B47C000D14815 /* search_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_icon@2x.png"; sourceTree = "<group>"; };
+		04598F081C5B4FDC00D14815 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		04598F091C5B4FDC00D14815 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		04598F0A1C5B4FDC00D14815 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04598F0B1C5B4FDC00D14815 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04598F0E1C5B4FFE00D14815 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0486428E1C4CB59C008B1710 /* TestFMDBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFMDBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048642921C4CB59C008B1710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048642941C4CB59C008B1710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		048642951C4CB59C008B1710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		048642971C4CB59C008B1710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		048642981C4CB59C008B1710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0486429B1C4CB59C008B1710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0486429D1C4CB59C008B1710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048642A01C4CB59C008B1710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +102,36 @@
 		048642B21C4CB59C008B1710 /* TestFMDBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFMDBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048642B61C4CB59C008B1710 /* TestFMDBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFMDBDemoUITests.m; sourceTree = "<group>"; };
 		048642B81C4CB59C008B1710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048642ED1C4CB74E008B1710 /* DatabaseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseUtil.h; sourceTree = "<group>"; };
+		048642EE1C4CB74E008B1710 /* DatabaseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseUtil.m; sourceTree = "<group>"; };
+		048642F41C4CB982008B1710 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		048642F51C4CB982008B1710 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		048642F61C4CB982008B1710 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		048642F71C4CB982008B1710 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		048642F81C4CB982008B1710 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		048642F91C4CB982008B1710 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		048642FA1C4CB982008B1710 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		048642FB1C4CB982008B1710 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		048642FC1C4CB982008B1710 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		048642FD1C4CB982008B1710 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		048642FE1C4CB982008B1710 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		048642FF1C4CB982008B1710 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048643071C4CB9C1008B1710 /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		048643081C4CB9C1008B1710 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
+		0486430B1C4CBA8F008B1710 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		0486430C1C4CBA8F008B1710 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		0486430D1C4CBA8F008B1710 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		0486430E1C4CBA8F008B1710 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		0486430F1C4CBA8F008B1710 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		048643491C4CC1F4008B1710 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04A080161C50C6600064AC13 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		04A080171C50C6600064AC13 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		04F566B61C4F5FB80026D4BD /* ContactsDatabaseOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsDatabaseOption.h; sourceTree = "<group>"; };
+		04F566B71C4F5FB80026D4BD /* ContactsDatabaseOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsDatabaseOption.m; sourceTree = "<group>"; };
+		04F566B91C4F89C80026D4BD /* ContactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewCell.h; sourceTree = "<group>"; };
+		04F566BA1C4F89C80026D4BD /* ContactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewCell.m; sourceTree = "<group>"; };
+		3BA5F8371C4CCC46007FE798 /* UserInfoEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoEditTableViewCell.h; sourceTree = "<group>"; };
+		3BA5F8381C4CCC46007FE798 /* UserInfoEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoEditTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0486434A1C4CC1F4008B1710 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +160,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04598EE61C5B3E3700D14815 /* ZeroXSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				04598F031C5B46F600D14815 /* images */,
+				04598EE71C5B3E3700D14815 /* Categories */,
+				04598EF81C5B3E3700D14815 /* TextField.h */,
+				04598EF91C5B3E3700D14815 /* TextField.m */,
+				04598EF61C5B3E3700D14815 /* SearchBar.h */,
+				04598EF71C5B3E3700D14815 /* SearchBar.m */,
+				04598EF41C5B3E3700D14815 /* ContactsSearchBar.h */,
+				04598EF51C5B3E3700D14815 /* ContactsSearchBar.m */,
+			);
+			path = ZeroXSearchBar;
+			sourceTree = "<group>";
+		};
+		04598EE71C5B3E3700D14815 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				04598EE81C5B3E3700D14815 /* APAddressBook+Conveniences.h */,
+				04598EE91C5B3E3700D14815 /* APAddressBook+Conveniences.m */,
+				04598EEA1C5B3E3700D14815 /* APContact+Conveniences.h */,
+				04598EEB1C5B3E3700D14815 /* APContact+Conveniences.m */,
+				04598EEC1C5B3E3700D14815 /* UIColor+Hex.h */,
+				04598EED1C5B3E3700D14815 /* UIColor+Hex.m */,
+				04598EEE1C5B3E3700D14815 /* UIImage+Color.h */,
+				04598EEF1C5B3E3700D14815 /* UIImage+Color.m */,
+				04598EF01C5B3E3700D14815 /* UIView+Size.h */,
+				04598EF11C5B3E3700D14815 /* UIView+Size.m */,
+				04598EF21C5B3E3700D14815 /* UIView+Toast.h */,
+				04598EF31C5B3E3700D14815 /* UIView+Toast.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		04598F031C5B46F600D14815 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				04598F061C5B47C000D14815 /* search_icon@2x.png */,
+				04598F041C5B46F600D14815 /* search_bar_background@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		048642851C4CB59C008B1710 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +228,16 @@
 			children = (
 				048642941C4CB59C008B1710 /* AppDelegate.h */,
 				048642951C4CB59C008B1710 /* AppDelegate.m */,
-				048642971C4CB59C008B1710 /* ViewController.h */,
-				048642981C4CB59C008B1710 /* ViewController.m */,
+				048642F01C4CB982008B1710 /* Controllers */,
+				048643001C4CB982008B1710 /* UI */,
+				048642F11C4CB982008B1710 /* Models */,
+				048642F21C4CB982008B1710 /* SDKs */,
+				048642E61C4CB71C008B1710 /* Utils */,
 				0486429A1C4CB59C008B1710 /* Main.storyboard */,
 				0486429D1C4CB59C008B1710 /* Assets.xcassets */,
 				0486429F1C4CB59C008B1710 /* LaunchScreen.storyboard */,
 				048642A21C4CB59C008B1710 /* Info.plist */,
+				04A080191C50E17F0064AC13 /* images */,
 				048642911C4CB59C008B1710 /* Supporting Files */,
 			);
 			path = TestFMDBDemo;
@@ -118,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				048642921C4CB59C008B1710 /* main.m */,
+				048643491C4CC1F4008B1710 /* libsqlite3.tbd */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +268,99 @@
 				048642B81C4CB59C008B1710 /* Info.plist */,
 			);
 			path = TestFMDBDemoUITests;
+			sourceTree = "<group>";
+		};
+		048642E61C4CB71C008B1710 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				048642ED1C4CB74E008B1710 /* DatabaseUtil.h */,
+				048642EE1C4CB74E008B1710 /* DatabaseUtil.m */,
+				04F566B61C4F5FB80026D4BD /* ContactsDatabaseOption.h */,
+				04F566B71C4F5FB80026D4BD /* ContactsDatabaseOption.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		048642F01C4CB982008B1710 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04598F0A1C5B4FDC00D14815 /* ViewController.h */,
+				04598F0B1C5B4FDC00D14815 /* ViewController.m */,
+				04598F081C5B4FDC00D14815 /* AddContactViewController.h */,
+				04598F091C5B4FDC00D14815 /* AddContactViewController.m */,
+				04A080161C50C6600064AC13 /* ContactDetailViewController.h */,
+				04A080171C50C6600064AC13 /* ContactDetailViewController.m */,
+				04F566B91C4F89C80026D4BD /* ContactsTableViewCell.h */,
+				04F566BA1C4F89C80026D4BD /* ContactsTableViewCell.m */,
+				3BA5F8371C4CCC46007FE798 /* UserInfoEditTableViewCell.h */,
+				3BA5F8381C4CCC46007FE798 /* UserInfoEditTableViewCell.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		048642F11C4CB982008B1710 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				048643071C4CB9C1008B1710 /* ContactModel.h */,
+				048643081C4CB9C1008B1710 /* ContactModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		048642F21C4CB982008B1710 /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+				04598EE61C5B3E3700D14815 /* ZeroXSearchBar */,
+				0486430A1C4CBA8F008B1710 /* YYModel */,
+				048642F31C4CB982008B1710 /* fmdb */,
+			);
+			path = SDKs;
+			sourceTree = "<group>";
+		};
+		048642F31C4CB982008B1710 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				048642F41C4CB982008B1710 /* FMDatabase.h */,
+				048642F51C4CB982008B1710 /* FMDatabase.m */,
+				048642F61C4CB982008B1710 /* FMDatabaseAdditions.h */,
+				048642F71C4CB982008B1710 /* FMDatabaseAdditions.m */,
+				048642F81C4CB982008B1710 /* FMDatabasePool.h */,
+				048642F91C4CB982008B1710 /* FMDatabasePool.m */,
+				048642FA1C4CB982008B1710 /* FMDatabaseQueue.h */,
+				048642FB1C4CB982008B1710 /* FMDatabaseQueue.m */,
+				048642FC1C4CB982008B1710 /* FMDB.h */,
+				048642FD1C4CB982008B1710 /* FMResultSet.h */,
+				048642FE1C4CB982008B1710 /* FMResultSet.m */,
+				048642FF1C4CB982008B1710 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		048643001C4CB982008B1710 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0486430A1C4CBA8F008B1710 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				0486430B1C4CBA8F008B1710 /* NSObject+YYModel.h */,
+				0486430C1C4CBA8F008B1710 /* NSObject+YYModel.m */,
+				0486430D1C4CBA8F008B1710 /* YYClassInfo.h */,
+				0486430E1C4CBA8F008B1710 /* YYClassInfo.m */,
+				0486430F1C4CBA8F008B1710 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		04A080191C50E17F0064AC13 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				04598F0E1C5B4FFE00D14815 /* Default-568h@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +466,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048643061C4CB982008B1710 /* Info.plist in Resources */,
 				048642A11C4CB59C008B1710 /* LaunchScreen.storyboard in Resources */,
 				0486429E1C4CB59C008B1710 /* Assets.xcassets in Resources */,
 				0486429C1C4CB59C008B1710 /* Main.storyboard in Resources */,
+				04598F071C5B47C000D14815 /* search_icon@2x.png in Resources */,
+				04598F0F1C5B4FFE00D14815 /* Default-568h@2x.png in Resources */,
+				04598F051C5B46F600D14815 /* search_bar_background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +497,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048642991C4CB59C008B1710 /* ViewController.m in Sources */,
+				04598F001C5B3E3700D14815 /* ContactsSearchBar.m in Sources */,
+				04598F021C5B3E3700D14815 /* TextField.m in Sources */,
+				04598EFF1C5B3E3700D14815 /* UIView+Toast.m in Sources */,
+				048643041C4CB982008B1710 /* FMDatabaseQueue.m in Sources */,
+				048642EF1C4CB74E008B1710 /* DatabaseUtil.m in Sources */,
 				048642961C4CB59C008B1710 /* AppDelegate.m in Sources */,
+				04598F0D1C5B4FDC00D14815 /* ViewController.m in Sources */,
+				04598EFC1C5B3E3700D14815 /* UIColor+Hex.m in Sources */,
+				04A080181C50C6600064AC13 /* ContactDetailViewController.m in Sources */,
+				04F566BB1C4F89C80026D4BD /* ContactsTableViewCell.m in Sources */,
+				048643111C4CBA8F008B1710 /* YYClassInfo.m in Sources */,
+				04598EFB1C5B3E3700D14815 /* APContact+Conveniences.m in Sources */,
+				04598EFA1C5B3E3700D14815 /* APAddressBook+Conveniences.m in Sources */,
+				04598EFE1C5B3E3700D14815 /* UIView+Size.m in Sources */,
+				048643011C4CB982008B1710 /* FMDatabase.m in Sources */,
+				3BA5F8391C4CCC46007FE798 /* UserInfoEditTableViewCell.m in Sources */,
+				048643031C4CB982008B1710 /* FMDatabasePool.m in Sources */,
+				048643091C4CB9C1008B1710 /* ContactModel.m in Sources */,
+				04598F011C5B3E3700D14815 /* SearchBar.m in Sources */,
+				048643051C4CB982008B1710 /* FMResultSet.m in Sources */,
+				048643101C4CBA8F008B1710 /* NSObject+YYModel.m in Sources */,
+				04F566B81C4F5FB80026D4BD /* ContactsDatabaseOption.m in Sources */,
+				04598EFD1C5B3E3700D14815 /* UIImage+Color.m in Sources */,
 				048642931C4CB59C008B1710 /* main.m in Sources */,
+				04598F0C1C5B4FDC00D14815 /* AddContactViewController.m in Sources */,
+				048643021C4CB982008B1710 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +664,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestFMDBDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Beacon.TestFMDBDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +676,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestFMDBDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Beacon.TestFMDBDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +750,7 @@
 				048642BD1C4CB59C008B1710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048642BE1C4CB59C008B1710 /* Build configuration list for PBXNativeTarget "TestFMDBDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +759,7 @@
 				048642C01C4CB59C008B1710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048642C11C4CB59C008B1710 /* Build configuration list for PBXNativeTarget "TestFMDBDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +768,7 @@
 				048642C31C4CB59C008B1710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

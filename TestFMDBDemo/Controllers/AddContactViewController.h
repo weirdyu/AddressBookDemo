@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PresentModalViewController.h
 //  TestFMDBDemo
 //
 //  Created by Mac on 16/1/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AddContactViewController : UIViewController
 
 @end
-
